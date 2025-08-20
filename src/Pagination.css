@@ -1,0 +1,23 @@
+:root {
+  --color-lightest: #f0f5f4;
+  --color-dark: #333;
+  --color-darkest: #212121;
+  --color-accent: #6ba2fa;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.page-active {
+  background-color: var(--color-accent);
+}
+
+button {
+  height: 40px;
+  width: 40px;
+  margin: 0 5px;
+  background-color: var(--color-dark);
+  color: var(--color-lightest);
+}

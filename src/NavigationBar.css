@@ -1,0 +1,40 @@
+ul {
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: var(--color-dark);
+}
+
+li {
+  float: left;
+  margin: 0 2vw;
+  width: 10vw;
+}
+
+li a {
+  display: block;
+  color: var(--color-lightest);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: larger;
+}
+
+li a:hover {
+  color: #6ba2fa;
+  background-color: var(--color-lightest);
+}
+
+.active {
+  background-color: var(--color-accent);
+}
+
+.bar {
+  color: var(--color-lightest);
+  font-size: large;
+  font-weight: bolder;
+}

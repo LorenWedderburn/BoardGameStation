@@ -1,0 +1,80 @@
+#chart-container {
+  margin: 50px auto 0;
+  display: grid;
+  height: 80vh;
+  width: 80vw;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  color: var(--color-lightest);
+}
+
+.chart-item {
+  position: relative;
+  display: grid;
+  margin: 10px;
+  padding-top: 10px;
+  border-radius: 5%;
+  background-color: var(--color-dark);
+  grid-template-rows: 3fr 1fr 1fr 1fr;
+}
+
+.chart-item a {
+  margin: 0 auto;
+}
+
+.chart-name {
+  color: var(--color-lightest);
+  font-size: larger;
+  font-weight: bolder;
+  margin: auto;
+}
+
+.chart-btn {
+  height: 90%;
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 5%;
+  background-color: var(--color-accent);
+  color: var(--color-lightest);
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.chart-stock {
+  color: var(--color-lightest);
+  font-size: larger;
+  font-weight: bolder;
+  margin-left: 15px;
+}
+
+.chart-price {
+  position: absolute;
+  font-weight: bolder;
+  background-color: yellow;
+  width: 30%;
+  top: 10%;
+  left: 10%;
+  text-align: center;
+  color: black;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.chart-image {
+  display: flex;
+  width: 85%;
+  height: 100%;
+  margin: 0 auto;
+  border-radius: 10%;
+  box-shadow: 7px 5px 5px black;
+}
+
+.chart-item image {
+  width: 85%;
+  height: 100%;
+  margin: 0 auto;
+  border-radius: 10%;
+  box-shadow: 7px 5px 5px black;
+}

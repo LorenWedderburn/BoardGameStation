@@ -1,0 +1,23 @@
+:root {
+  --color-lightest: #f0f5f4;
+  --color-dark: #333;
+  --color-darkest: #212121;
+  --color-accent: #6ba2fa;
+}
+
+.banner-border {
+  margin: 5px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3vh;
+  background-color: var(--color-accent);
+  color: var(--color-lightest);
+  font-weight: bolder;
+  font-size: large;
+}
+
+.banner-content-image {
+  width: 99.4vw;
+  height: 40vh;
+}

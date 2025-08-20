@@ -1,25 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import { Banner } from "./Banner";
+import { Border } from "./Border";
+import { EditorsChoice } from "./EditorsChoice";
+import { GameChart } from "./GameChart";
+import { Logo } from "./Logo";
+import { NavigationBar } from "./NavigationBar";
+import { Footer } from "./Footer";
 
 export default App;
+
+function App({
+  gameBank,
+  shoppingCart,
+  setShoppingCart,
+  chartGames,
+  onAddToCart,
+}) {
+  return (
+    <>
+      <Logo shoppingCart={shoppingCart} />
+      <NavigationBar
+        shoppingCart={shoppingCart}
+        setShoppingCart={setShoppingCart}
+      />
+      <Banner />
+      <EditorsChoice />
+      <Border className="break-border" />
+      <GameChart
+        gameBank={gameBank}
+        shoppingCart={shoppingCart}
+        setShoppingCart={setShoppingCart}
+        chartGames={chartGames}
+        onAddToCart={onAddToCart}
+      />
+      <Footer />
+    </>
+  );
+}

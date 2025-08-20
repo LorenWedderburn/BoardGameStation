@@ -1,0 +1,65 @@
+:root {
+  --color-lightest: #f0f5f4;
+  --color-dark: #333;
+  --color-darkest: #212121;
+  --color-accent: #6ba2fa;
+}
+
+.caption-text {
+  font-size: 30px;
+  color: var(--color-lightest);
+}
+
+.review-image {
+  margin-top: 10px;
+  border: 2px solid var(--color-lightest);
+  border-radius: 5%;
+  height: 25vh;
+  max-width: 465px;
+  min-width: 465px;
+}
+
+.image-container {
+  margin-left: 10vw;
+  max-width: 474px;
+  height: 40vh;
+  padding: 20px;
+}
+
+.review-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.review-content label {
+  display: flex;
+  color: var(--color-lightest);
+  width: 40vw;
+  margin-top: 20px;
+}
+
+.review-btn {
+  border-radius: 5%;
+  background-color: var(--color-accent);
+  color: var(--color-lightest);
+  font-size: larger;
+  font-weight: bolder;
+  margin-top: 10px;
+  width: 465px;
+  height: 10%;
+}
+
+.price-label {
+  display: block;
+  font-size: 25px;
+  color: var(--color-lightest);
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.greyscale {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}

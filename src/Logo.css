@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  background-color: var(--color-darkest);
+}
+
+#logo-container {
+  display: flex;
+  height: 17vh;
+}
+
+#logo-image {
+  margin: 10px 5px;
+  height: 15vh;
+}
+
+#logo-title {
+  position: relative;
+  margin: 4% 30%;
+  font-weight: bolder;
+  font-size: 60px;
+  color: var(--color-lightest);
+  text-align: center;
+}
+
+#logo-background {
+  height: 100%;
+}
+
+.logo-basket {
+  display: flex;
+  color: var(--color-lightest);
+  top: 80%;
+  position: relative;
+  text-decoration: none;
+}
+
+.logo-cart-total {
+  font-weight: bolder;
+  margin-left: 5px;
+  padding-top: 5px;
+}
