@@ -12,7 +12,7 @@ import { Title } from "./Title";
 
 export default function Gallery({ gameBank, shoppingCart }) {
   const [currentPage, setCurrentPage] = useState(1);
-  const [postsPerPage, setPostPerPAge] = useState(9);
+  const [postsPerPage] = useState(9);
 
   const lastPostIndex = currentPage + postsPerPage;
   const firstPostIndex = lastPostIndex - postsPerPage;
@@ -23,7 +23,7 @@ export default function Gallery({ gameBank, shoppingCart }) {
   const handlePageClick = (event) => {
     const newOffset = (event.selected * postsPerPage) % gameBank.length;
     console.log(
-      `User requested page number ${event.selected}, which is offset ${newOffset}`
+      `User requested page number ${event.selected}, which is offset ${newOffset}`,
     );
     setCurrentPage(newOffset);
   };
