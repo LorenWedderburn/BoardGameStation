@@ -1,6 +1,6 @@
 # --Overview--
 
-A project created in React to demonstrate my ability to create a standard website with the ability to add and remove items from to a webcart and to pass state between different pages. Was made to look like [Zatu.com](https://zatu.com/)(before their website update)
+A project created in React to demonstrate my ability to create a standard website with the ability to add and remove items from to a webcart and to pass state between different pages. Was made to look like [Zatu.com](https://zatu.com/) (before their website update)
 
 # --Features--
 
