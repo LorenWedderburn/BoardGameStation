@@ -6,5 +6,12 @@ A card memory game I made using React. I made a version of this game initially w
 
 It is quite barebones in terms of features however, it does let the user decide the amount of cards they wish to play with(between 2-40) and incorporates sounds and a a high score feature.
 
+# --Front Page--
 ![image alt](https://github.com/LorenWedderburn/BoardGameStation/blob/03156a1deac86b89e855541b9b9700d2e18e72cd/BGSFrontPageTop.JPG)
 ![image alt](https://github.com/LorenWedderburn/BoardGameStation/blob/7a071e373d94284ea3981af224f7cea1e132291b/BGSFrontMiddle.JPG)
+
+# --Gallery--
+
+# --Cart--
+
+# --Review--
