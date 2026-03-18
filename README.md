@@ -1,10 +1,12 @@
 # --Overview--
 
-A card memory game I made using React. I made a version of this game initially when I started learning Javascript and thought it would be a good beginner React project.
+A project created in React to demonstrate my ability to create a standard website with the ability to add and remove items from to a webcart and to pass state between different pages.
 
 # --Features--
 
-It is quite barebones in terms of features however, it does let the user decide the amount of cards they wish to play with(between 2-40) and incorporates sounds and a a high score feature.
+-Shopping Cart
+-Pagination
+-State
 
 # --Front Page--
 ![image alt](https://github.com/LorenWedderburn/BoardGameStation/blob/03156a1deac86b89e855541b9b9700d2e18e72cd/BGSFrontPageTop.JPG)
@@ -17,4 +19,4 @@ It is quite barebones in terms of features however, it does let the user decide 
 ![image alt](https://github.com/LorenWedderburn/BoardGameStation/blob/b9ca690ec0cef394cee6216e56b5487e130b3832/BGSCart.JPG)
 
 # --Review--
-![image alt]
+![image alt](https://github.com/LorenWedderburn/BoardGameStation/blob/1e1ff46c7214ca483da186f59948f2c4c349423d/BGSReviews.JPG)
