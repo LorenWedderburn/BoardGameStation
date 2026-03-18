@@ -11,7 +11,9 @@ It is quite barebones in terms of features however, it does let the user decide 
 ![image alt](https://github.com/LorenWedderburn/BoardGameStation/blob/7a071e373d94284ea3981af224f7cea1e132291b/BGSFrontMiddle.JPG)
 
 # --Gallery--
+![image alt](https://github.com/LorenWedderburn/BoardGameStation/blob/c9e50f7bebe5a9365d64ef662a73919d81adb598/BGSGallery.JPG)
 
 # --Cart--
+
 
 # --Review--
