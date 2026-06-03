@@ -1,12 +1,28 @@
 # --Overview--
 
-A project created in React to demonstrate my ability to create a standard website with the ability to add and remove items from to a webcart and to pass state between different pages. Was made to look like [Zatu.com](https://zatu.com/) (before their website update)
+BoardGameStation is a multi-page e-commerce style application demonstrating component-based architecture, cross-page state management, and dynamic routing in React. The project was built to replicate the core shopping experience of a real retail website. [Zatu.com](https://zatu.com/) (before their website update)
 
 # --Features--
 
--Shopping Cart
--Pagination
--State
+* Landing Page — Promotional banner, editor's picks, and a featured game chart  
+* Gallery — Full product catalogue with pagination  
+* Product Reviews — Individual game pages with details and review information  
+* Shopping Cart — Add and remove items, adjust quantities, and view running totals  
+* Cross-page State — Cart state persists as you navigate between pages  
+
+# --Running the Project--
+
+Running the Project  
+npm install  
+npm start  
+Live demo: [BoardGameStation](https://boardgamestation.netlify.app)
+
+# --What I Learned--
+
+*Managing shared state across multiple pages and components  
+*Implementing pagination for large product catalogues  
+*Building a multi-page React application with React Router  
+*Structuring a component hierarchy for an e-commerce UI  
 
 # --Front Page--
 ![image alt](https://github.com/LorenWedderburn/BoardGameStation/blob/03156a1deac86b89e855541b9b9700d2e18e72cd/BGSFrontPageTop.JPG)
