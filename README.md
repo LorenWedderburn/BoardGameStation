@@ -12,17 +12,17 @@ BoardGameStation is a multi-page e-commerce style application demonstrating comp
 
 # --Running the Project--
 
-*Running the Project  
-*npm install  
-*npm start  
+*Running the Project
+*npm install
+*npm start
 *Live demo: [BoardGameStation](https://boardgamestation.netlify.app)
 
 # --What I Learned--
 
-*Managing shared state across multiple pages and components  
-*Implementing pagination for large product catalogues  
-*Building a multi-page React application with React Router  
-*Structuring a component hierarchy for an e-commerce UI  
+*Managing shared state across multiple pages and components
+*Implementing pagination for large product catalogues
+*Building a multi-page React application with React Router
+*Structuring a component hierarchy for an e-commerce UI
 
 # --Front Page--
 ![image alt](https://github.com/LorenWedderburn/BoardGameStation/blob/03156a1deac86b89e855541b9b9700d2e18e72cd/BGSFrontPageTop.JPG)
