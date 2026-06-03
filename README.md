@@ -12,10 +12,10 @@ BoardGameStation is a multi-page e-commerce style application demonstrating comp
 
 # --Running the Project--
 
-Running the Project  
-npm install  
-npm start  
-Live demo: [BoardGameStation](https://boardgamestation.netlify.app)
+*Running the Project  
+*npm install  
+*npm start  
+*Live demo: [BoardGameStation](https://boardgamestation.netlify.app)
 
 # --What I Learned--
 
